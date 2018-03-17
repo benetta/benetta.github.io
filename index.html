@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kseniya Tokareva</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+<body>
+  <header class="main-header">
+    <nav class="main-navigation">
+      <ul class="main-navigation__list">
+        <li><a href="#">Main</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#works">Work</a></li>
+        <li><a href="#contacts">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="main-hero">
+      <h1 class="main-hero__header">Kseniya Tokareva</h1>
+      <p class="main-hero__lead">Front-End Developer</p>
+    </section>
+    <section class="main-about" id="about">
+      <div class="main-about__content">
+        <h2 class="main-about__header">About me?</h2>
+
+        <p>- Woah, Woah. Front-end Developer?<br> That`s quite a statement.</p>
+
+        <p>I`m still learning, but since I made a couple of things <span class="main-about__content--gray">(and this page
+        is one of them!)</span> let`s use this oh-so-serious title. Yeah, I can be quite verbose <span class="main-about__content--gray">(that usually happens when I'm nervous)</span>.</p>
+
+        <p>- What do I know?<br>
+        I know how to use google. <span class="main-about__content--gray">That`s a pretty useful skill in a modern world, btw.</span>
+        but! jokes aside,<br> I can build things with <span  class="main-about__content--important">HTML / CSS / JS</span> use <span  class="main-about__content--important">SASS, Gulp, MongoDB</span> and <span  class="main-about__content--important">ExpressJS</span>.</p>
+      </div>
+    </section>
+    <section class="main-works" id="works">
+      <h2 class="main-works__header">My Works</h2>
+      <ul class="main-works__content slider">
+        <li class="slider__controls">
+          <button class="slider__toggle slider__toggle--active"> Slide 1</button>
+          <button class="slider__toggle"> Slide 2</button>
+          <button class="slider__toggle"> Slide 3</button>
+          <button class="slider__toggle"> Slide 4</button>
+          <button class="slider__toggle"> Slide 5</button>
+          <button class="slider__toggle"> Slide 6</button>
+        </li>
+        <li class="slider__item">
+          <div class="slider__content">
+            <h3><a class="link" target="_blank" href="https://codepen.io/pinaColada/full/KvjOby/">Tribute Page</a> <span class="slider-content--small">(FCC Challenge)</span></h3>
+            <p>We all have to start somewhere, right?<br> I started with FCC's tribute page.</p> <p>It`s about Hunter S. Thompson - an american writer &amp; journalist.</p> <p>Highly recommend his books.</p>
+            <p>Technologies used: HTML, Bootstrap</p>
+          </div>
+          <div class="slider__image">
+            <img src="img/tribute.png" alt="Tribute Page for FCC">
+          </div>
+        </li>
+        <li class="slider__item slider__item--hidden">
+          <div class="slider__content">
+            <h3><a class="link" target="_blank" href="https://codepen.io/pinaColada/full/gXaZvE/">Quote Machine</a> <span class="slider-content--small">(FCC Challenge)</span></h3>
+            <p>My second 'serious' prject with FCC.</p> <p>Here I worked for the first time with API and JSON. <br>Pretty simple, 2 buttons - you get a random quote and you can tweet it.</p>
+            <p>Technologies used: HTML, CSS, jQuery</p>
+          </div>
+          <div class="slider__image">
+            <img src="img/quote-machine.png" alt="Tribute Page for FCC">
+          </div>
+        </li>
+        <li class="slider__item slider__item--hidden">
+          <div class="slider__content">
+            <h3><a class="link">Weather App</a> <span class="slider-content--small">(FCC Challenge)</span></h3>
+            <p>My last FCC Project so far, weather app.</p>
+            <p>After determining user's location, web-page shows current weather, using FCC Weather API. </p>
+            <p>Technologies used: HTML, CSS, jQuery</p>
+          </div>
+          <div class="slider__image">
+            <img src="img/weather-app.png" alt="Tribute Page for FCC">
+          </div>
+        </li>
+        <li class="slider__item slider__item--hidden">
+          <div class="slider__content">
+            <h3><a class="link" target="_blank" href="https://github.com/benetta/265117-gllacy">Gllacy</a> <span class="slider-content--small">(HTML Academy)</span></h3>
+            <p>HTML Academy is a Russian-based online-school that teaches front-end development. This is a project I made during my studies.</p>
+            <p>Our task was to turn two psd templates of a nonexistent ice-cream store into HTML pages.</p>
+            <p>Technologies used: HTML, CSS, JS</p>
+          </div>
+          <div class="slider__image">
+            <img src="img/gllacy.png" alt="Tribute Page for FCC">
+          </div>
+        </li>
+        <li class="slider__item slider__item--hidden">
+          <div class="slider__content">
+            <h3><a class="link" target="_blank" href="https://github.com/benetta/265117-mishka">Mishka</a> <span class="slider-content--small">(HTML Academy)</span></h3>
+            <p>My second project with HTML Academy.</p>
+            <p>Another non-existent store, this time more difficult: <br> We were given three pages, each one in three resolutions: mobile / tablet / desktop. I used SASS as pre-processor and Gulp to automate my workflow.</p>
+            <p>Technologies used: HTML, SASS, JS, GULP</p>
+          </div>
+          <div class="slider__image">
+            <img src="img/mishka.png" alt="Tribute Page for FCC">
+          </div>
+        </li>
+        <li class="slider__item slider__item--hidden">
+          <div class="slider__content">
+            <h3><a class="link">Memory Game</a> <span class="slider-content--small">(SKB Kontur)</span></h3>
+            <p>Test task for SKB Kontur 2018 front-end internship.</p>
+            <p>Memory is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards. (c) Wiki </p>
+            <p>Technologies used: HTML, CSS, ES2015, GULP</p>
+          </div>
+          <div class="slider__image">
+            <img src="img/memory.png" alt="Tribute Page for FCC">
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="main-contacts" id="contacts">
+      <h2 class="main-contacts__header">Get in touch?</h2>
+      <ul class="main-contacts__social social">
+        <li class="social__item">Github: <a target="_blank" href="https://github.com/benetta" class="link">Benetta</a></li>
+        <li class="social__item">Vkontakte: <a target="_blank" href="https://vk.com/la_modification" class="link">Kseniya Tokareva</a></li>
+        <li class="social__item">Telegram: <a target="_blank" href="https://t.me/mellyssy" class="link">@mellyssy</a></li>
+      </ul>
+      <form action="GET" class="main-contacts__form form">
+        <textarea class="form__textarea" name="message" cols="30" rows="12" placeholder="write me a message..."></textarea>
+        <input class="form__submit" type="submit" value="Send">
+      </form>
+    </section>
+  </main>
+
+  <script src="js/slider.js"></script>
+</body>
+</html>
